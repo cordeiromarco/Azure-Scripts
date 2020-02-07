@@ -21,12 +21,12 @@ namespace SimulatedDevice
         private readonly static string s_iotHubUri = "hub-iot-kpi-industrial.azure-devices.net";
         // This is the primary key for the device. This is in the portal. 
         // Find your IoT hub in the portal > IoT devices > select your device > copy the key. 
-        private readonly static string s_deviceKey = "siCuhBAHAmj8R5HrWNInEtMb9RSF+ew13yy4HWIjGYQ=";
+        private readonly static string s_deviceKey = "xxxxxxx";
 
         private static void Main(string[] args)
         {
             Console.WriteLine("Routing Tutorial: Simulated device\n");
-            String cn = "HostName=hub-iot-kpi-industrial.azure-devices.net;DeviceId=predicaokpi-test-device;SharedAccessKey=siCuhBAHAmj8R5HrWNInEtMb9RSF+ew13yy4HWIjGYQ=";
+            String cn = "HostName=hub-iot-kpi-industrial.azure-devices.net;DeviceId=predicaokpi-test-device;SharedAccessKey=xxxxx";
             s_deviceClient = DeviceClient.CreateFromConnectionString(cn, TransportType.Http1);
            // s_deviceClient = DeviceClient.Create(s_iotHubUri, new DeviceAuthenticationWithRegistrySymmetricKey(s_myDeviceId, s_deviceKey), TransportType.Http1);
             SendDeviceToCloudMessagesAsync();
