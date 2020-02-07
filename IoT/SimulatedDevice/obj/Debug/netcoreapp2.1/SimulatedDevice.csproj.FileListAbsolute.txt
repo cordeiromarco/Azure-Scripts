@@ -1,0 +1,10 @@
+C:\Data\Petrobras\automacoes\azure-iot-samples-csharp-master\iot-hub\Tutorials\Routing\SimulatedDevice\bin\Debug\netcoreapp2.1\SimulatedDevice.deps.json
+C:\Data\Petrobras\automacoes\azure-iot-samples-csharp-master\iot-hub\Tutorials\Routing\SimulatedDevice\bin\Debug\netcoreapp2.1\SimulatedDevice.runtimeconfig.json
+C:\Data\Petrobras\automacoes\azure-iot-samples-csharp-master\iot-hub\Tutorials\Routing\SimulatedDevice\bin\Debug\netcoreapp2.1\SimulatedDevice.runtimeconfig.dev.json
+C:\Data\Petrobras\automacoes\azure-iot-samples-csharp-master\iot-hub\Tutorials\Routing\SimulatedDevice\bin\Debug\netcoreapp2.1\SimulatedDevice.dll
+C:\Data\Petrobras\automacoes\azure-iot-samples-csharp-master\iot-hub\Tutorials\Routing\SimulatedDevice\bin\Debug\netcoreapp2.1\SimulatedDevice.pdb
+C:\Data\Petrobras\automacoes\azure-iot-samples-csharp-master\iot-hub\Tutorials\Routing\SimulatedDevice\obj\Debug\netcoreapp2.1\SimulatedDevice.csprojAssemblyReference.cache
+C:\Data\Petrobras\automacoes\azure-iot-samples-csharp-master\iot-hub\Tutorials\Routing\SimulatedDevice\obj\Debug\netcoreapp2.1\SimulatedDevice.AssemblyInfoInputs.cache
+C:\Data\Petrobras\automacoes\azure-iot-samples-csharp-master\iot-hub\Tutorials\Routing\SimulatedDevice\obj\Debug\netcoreapp2.1\SimulatedDevice.AssemblyInfo.cs
+C:\Data\Petrobras\automacoes\azure-iot-samples-csharp-master\iot-hub\Tutorials\Routing\SimulatedDevice\obj\Debug\netcoreapp2.1\SimulatedDevice.dll
+C:\Data\Petrobras\automacoes\azure-iot-samples-csharp-master\iot-hub\Tutorials\Routing\SimulatedDevice\obj\Debug\netcoreapp2.1\SimulatedDevice.pdb
