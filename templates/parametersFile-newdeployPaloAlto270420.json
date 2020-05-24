@@ -1,0 +1,78 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "vmName": {
+      "value": "fwazrin-01"
+    },
+    "storageAccountName": {
+      "value": "mngtfirewallwstg"
+    },
+    "storageAccountExistingRG": {
+      "value": "management-firewall-rg"
+    },
+    "fwAvSet": {
+      "value": "fwavset"
+    },
+    "vmSize": {
+      "value": "Standard_D3_v2"
+    },
+    "publicIPType": {
+      "value": "standard"
+    },
+    "imageVersion": {
+      "value": "latest"
+    },
+    "imageSku": {
+      "value": "bundle2"
+    },
+    "virtualNetworkName": {
+      "value": "management-network-brsouth-vnet"
+    },
+    "virtualNetworkAddressPrefix": {
+      "value": "10.105.66.0/24"
+    },
+    "virtualNetworkExistingRGName": {
+      "value": "management-firewall-rg"
+    },
+    "subnet0Name": {
+      "value": "Mgmt-inbound"
+    },
+    "subnet1Name": {
+      "value": "Untrust-inbound"
+    },
+    "subnet2Name": {
+      "value": "Trust-inbound"
+    },
+    "subnet0Prefix": {
+      "value": "10.105.66.0/26"
+    },
+    "subnet1Prefix": {
+      "value": "10.105.66.64/26"
+    },
+    "subnet2Prefix": {
+      "value": "10.105.66.128/26"
+    },
+    "subnet0StartAddress": {
+      "value": "10.105.66.4"
+    },
+    "subnet1StartAddress": {
+      "value": "10.105.66.68"
+    },
+    "subnet2StartAddress": {
+      "value": "10.105.66.132"
+    },
+    "adminUsername": {
+      "value": "fwrootadmin"
+    },
+    "adminPassword": {
+      "value": "ghzdQ#$5G8BJ"
+    },
+    "publicIPAddressName": {
+      "value": "fwazrin-01-vip"
+    },
+    "nsgName": {
+      "value": "fwazrin-01-DefaultNSG"
+    }
+  }
+}
